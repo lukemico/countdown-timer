@@ -1,0 +1,51 @@
+.timer {
+    transform: translate(50%, 50%);
+    border: 1px solid black;
+    width: 600px;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.real-time {
+    display: block;
+    margin: 20px 20px;
+}
+.input-time {
+    width: 60%;
+    display: inline;
+}
+input {
+    width: 80px;
+}
+button {
+    width: 50px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0.15rem #000;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+.button-section {
+    width: 40%;
+    display: inline;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.pause-button {
+    margin: 10px 10px;
+    width: 15%;
+    background-color: blue;
+    transition: display 0.5s;
+}
+.pause-button.hidden {
+    display: none;
+}
+.reset-button {
+    width: 15%;
+    background-color: red;
+}
